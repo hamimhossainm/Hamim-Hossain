@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "poppins-regular";
+  src: url("/public/Fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "poppins-SemiBold";
+  src: url("/public/Fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url("/public/Fonts/Poppins-ExtraBold.ttf");
+}

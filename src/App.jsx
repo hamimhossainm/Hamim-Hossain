@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
-    <div>
-      <h2></h2>
-    </div>
+    <main className="h-screen w-full">
+      <Navbar />
+    </main>
   );
 };
 
