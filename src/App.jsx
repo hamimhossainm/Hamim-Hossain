@@ -5,6 +5,9 @@ import About from "./Pages/About/About";
 import Summary from "./Pages/Others/Summary";
 import Skills from "./Pages/Skills/Skills";
 import "react-circular-progressbar/dist/styles.css";
+import Services from "./Pages/Services/Services";
+import ProjectsBanner from "./Pages/Others/ProjectsBanner";
+import Projects from "./Pages/Projects/Projects";
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
       <Summary />
       <About />
       <Skills />
+      <Services />
+      <ProjectsBanner />
+      <Projects />
     </main>
   );
 };

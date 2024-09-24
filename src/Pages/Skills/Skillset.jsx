@@ -74,6 +74,20 @@ const Skillset = () => {
       lastw: "33%",
       lastM: "20%",
     },
+    {
+      id: 11,
+      name: "PHP",
+      value: 65,
+      lastw: "43%",
+      lastM: "20%",
+    },
+    {
+      id: 12,
+      name: "LARAVEL",
+      value: 40,
+      lastw: "13%",
+      lastM: "27%",
+    },
   ];
 
   const circleStyles = {
