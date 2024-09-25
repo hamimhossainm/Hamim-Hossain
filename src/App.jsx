@@ -9,8 +9,11 @@ import Services from "./Pages/Services/Services";
 import ProjectsBanner from "./Pages/Others/ProjectsBanner";
 import Projects from "./Pages/Projects/Projects";
 import Review from "./Pages/Review/Review";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import Contact from "./Pages/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -24,6 +27,8 @@ const App = () => {
       <ProjectsBanner />
       <Projects />
       <Review />
+      <Contact />
+      <Footer />
     </main>
   );
 };
