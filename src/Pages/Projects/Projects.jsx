@@ -1,11 +1,12 @@
 import React from "react";
+import Projectset from "./Projectset";
 
 const Projects = () => {
   return (
-    <section id="project" className="w-full bg-[#FFFFFF] px-20 py-20">
+    <section id="project" className="w-full bg-[#DEDEDE] px-20 py-20">
       <div className="w-full flex-col items-center justify-center">
         <div className="w-full text-center">
-          <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-[#B7BA9B]">
+          <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-[#949776]">
             Accomplishments
           </h3>
           <h2 className="mt-3 font-poppinsSemibold text-4xl">Recent Works</h2>
@@ -13,7 +14,9 @@ const Projects = () => {
             Explore my latest projects crafted for innovation and impact !
           </p>
         </div>
-        <div className="mt-20">Projects</div>
+        <div className="mt-20">
+          <Projectset />
+        </div>
       </div>
     </section>
   );

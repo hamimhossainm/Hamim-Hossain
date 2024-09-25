@@ -103,6 +103,14 @@ const Navbar = () => {
             </a>
             <a
               className={
+                activeSection === "review" ? activeUnderLine : underLine
+              }
+              href="#review"
+            >
+              Review
+            </a>
+            <a
+              className={
                 activeSection === "contact" ? activeUnderLine : underLine
               }
               href="#contact"

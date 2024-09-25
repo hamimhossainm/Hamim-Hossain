@@ -63,9 +63,7 @@ const Serviceset = () => {
         >
           <div
             className={`absolute -translate-y-1/2 rounded-full bg-[#B1B493] px-2 py-2 text-[60px] text-white transition-all duration-500 ease-in-out ${
-              hoveredId === item.id
-                ? "translate-x-1/2 bg-[#FFFFFF] text-black"
-                : ""
+              hoveredId === item.id ? "translate-x-1/2 bg-black" : ""
             }`}
           >
             {item.icon}

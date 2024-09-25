@@ -8,6 +8,9 @@ import "react-circular-progressbar/dist/styles.css";
 import Services from "./Pages/Services/Services";
 import ProjectsBanner from "./Pages/Others/ProjectsBanner";
 import Projects from "./Pages/Projects/Projects";
+import Review from "./Pages/Review/Review";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (
@@ -20,6 +23,7 @@ const App = () => {
       <Services />
       <ProjectsBanner />
       <Projects />
+      <Review />
     </main>
   );
 };
