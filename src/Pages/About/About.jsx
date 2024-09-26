@@ -45,7 +45,7 @@ const About = () => {
     { id: 4, icon: <MdOutlineSportsCricket />, name: "Sports" },
   ];
   return (
-    <section id="about" className="bg-[#FFFFFF] px-20">
+    <section id="about" className="hidden bg-[#FFFFFF] px-20">
       <div className="flex w-full items-center">
         <div className="w-[40%]">
           <img

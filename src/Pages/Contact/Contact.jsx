@@ -4,7 +4,7 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-full bg-[#FFFFFF] px-20 pt-20">
+    <section id="contact" className="hidden w-full bg-[#FFFFFF] px-20 pt-20">
       <div className="w-full flex-col items-center justify-center">
         <div className="w-full text-center">
           <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-[#B1B493]">

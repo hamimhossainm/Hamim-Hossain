@@ -7,7 +7,7 @@ import CountUp from "react-countup";
 
 const Summary = () => {
   return (
-    <div className="h-fit w-full bg-[#cdcdcf] px-20 py-20">
+    <div className="hidden h-fit w-full bg-[#cdcdcf] px-20 py-20">
       <div className="grid grid-cols-4">
         <div className="flex items-center justify-center gap-x-5">
           <div className="rounded-full bg-[#B1B493] px-3 py-3 text-5xl text-white">

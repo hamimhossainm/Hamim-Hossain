@@ -5,7 +5,8 @@ import { SiFreelancer } from "react-icons/si";
 
 const ProjectsBanner = () => {
   return (
-    <div className="relative flex w-full items-center justify-center bg-[#B1B493] px-20">
+    <div className="relative hidden w-full items-center justify-center bg-[#B1B493] px-20">
+      {/* hidden = flex */}
       <div className="w-[70%]">
         <h2 className="mb-8 font-poppinsEbold text-4xl">
           Do you have any project on your mind ?

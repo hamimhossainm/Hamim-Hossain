@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-    <section id="home" className="w-full pt-20">
+    <section id="home" className="hidden w-full pt-20">
       <div className="flex items-center justify-center px-20">
         <div className="w-[65%]">
           <h3 className="font-poppinsSemibold text-[20px] tracking-wider text-[#B1B493]">

@@ -3,7 +3,7 @@ import Serviceset from "./Serviceset";
 
 const Services = () => {
   return (
-    <section id="service" className="w-full bg-[#FFFFFF] px-20 py-20">
+    <section id="service" className="hidden w-full bg-[#FFFFFF] px-20 py-20">
       <div className="w-full flex-col items-center justify-center">
         <div className="w-full text-center">
           <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-[#B7BA9B]">

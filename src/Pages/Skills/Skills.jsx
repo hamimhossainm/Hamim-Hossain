@@ -3,7 +3,7 @@ import Skillset from "./Skillset";
 
 const Skills = () => {
   return (
-    <section id="skill" className="w-full bg-[#F8F9FA] px-20 py-24">
+    <section id="skill" className="hidden w-full bg-[#F8F9FA] px-20 py-24">
       <div className="flex w-full flex-col items-center justify-center">
         <div className="w-full text-center">
           <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-[#B7BA9B]">

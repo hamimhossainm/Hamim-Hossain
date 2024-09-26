@@ -3,7 +3,7 @@ import ReviewSet from "./ReviewSet";
 
 const Review = () => {
   return (
-    <section id="review" className="w-full bg-[#B1B493] px-20 py-20">
+    <section id="review" className="hidden w-full bg-[#B1B493] px-20 py-20">
       <div className="w-full flex-col items-center justify-center">
         <div className="w-full text-center">
           <h3 className="font-poppinsSemibold text-xl uppercase tracking-widest text-white">
