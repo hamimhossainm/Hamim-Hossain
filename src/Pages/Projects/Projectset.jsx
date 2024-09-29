@@ -7,7 +7,7 @@ import items from "./ProjectItems";
 
 const Projectset = () => {
   return (
-    <div className="grid grid-cols-3 place-items-center">
+    <div className="grid place-items-center esm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {items.map((item) => (
         <div
           key={item.id}

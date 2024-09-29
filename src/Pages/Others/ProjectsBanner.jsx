@@ -5,13 +5,12 @@ import { SiFreelancer } from "react-icons/si";
 
 const ProjectsBanner = () => {
   return (
-    <div className="relative hidden w-full items-center justify-center bg-[#B1B493] px-20">
-      {/* hidden = flex */}
-      <div className="w-[70%]">
-        <h2 className="mb-8 font-poppinsEbold text-4xl">
+    <div className="relative flex w-full items-center justify-center bg-[#B1B493] esm:flex-col esm:px-4 esm:py-10 md:flex-row md:px-20 md:py-0">
+      <div className="esm:w-full md:w-[70%]">
+        <h2 className="mb-8 font-poppinsEbold esm:text-[28px] md:text-4xl">
           Do you have any project on your mind ?
         </h2>
-        <p className="mb-8 font-poppinsSemibold text-xl leading-loose tracking-wider text-white">
+        <p className="esm:[16px] mb-8 font-poppinsSemibold leading-loose tracking-wider text-white md:text-xl">
           Have any project in mind? Let me transform your vision into reality!
           With my outstanding frontend skills, I’ll deliver an elegant and
           engaging experience.
@@ -41,7 +40,7 @@ const ProjectsBanner = () => {
           </a>
         </div>
       </div>
-      <div className="w-[30%]">
+      <div className="w-[30%] esm:hidden md:block">
         <img className="w-[450px]" src="/public/image/meee.png" alt="" />
       </div>
     </div>
