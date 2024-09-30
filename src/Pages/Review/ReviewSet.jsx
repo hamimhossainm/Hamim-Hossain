@@ -20,7 +20,7 @@ const ReviewSet = () => {
     centerMode: true,
   };
   return (
-    <div>
+    <div className="esm:hidden lg:block">
       <div className="px-32 esm:hidden lg:block">
         <Swiper
           cssMode={true}
@@ -57,32 +57,6 @@ const ReviewSet = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
-
-      <div className="w-full esm:block lg:hidden">
-        <Slider {...settings}>
-          {items.map((item, index) => (
-            <div key={index} className="h-[400px] w-full bg-white py-10">
-              <img
-                className="mx-auto w-20 rounded-full"
-                src={item.img}
-                alt=""
-              />
-              <h2 className="mt-2 text-center font-poppinsSemibold">
-                {item.name}
-              </h2>
-              <h4 className="text-center font-poppinsReg text-[10px] text-gray-500">
-                {item.desig}
-              </h4>
-              <div className="mt-1 flex justify-center">
-                <p className="flex text-[10px] text-yellow-500">{item.icon}</p>
-              </div>
-              <p className="mt-4 px-14 text-justify tracking-wider text-slate-500">
-                {item.review}
-              </p>
-            </div>
-          ))}
-        </Slider>
       </div>
     </div>
   );

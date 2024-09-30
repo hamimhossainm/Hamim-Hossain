@@ -51,7 +51,6 @@ const App = () => {
       <Review />
       <Contact />
       <Footer />
-
       <FaArrowUp
         className={`fixed bottom-10 right-10 animate-bounce cursor-pointer rounded-full bg-[#B1B493] px-2 py-2 text-4xl text-white transition-all duration-500 ease-in-out ${
           showScroll ? "opacity-100" : "opacity-0"
