@@ -1,7 +1,7 @@
 const items = [
   {
     id: 1,
-    image: "/public/projects/Amazon-com-Spend-less-Smile-more-.png",
+    image: "/src/assets/projects/Amazon-com-Spend-less-Smile-more-.png",
     title1: "E-Commerce",
     title2: "Amazon Clone",
     description:
@@ -11,7 +11,7 @@ const items = [
   },
   {
     id: 2,
-    image: "/public/projects/Portfolio.png",
+    image: "/src/assets/projects/Portfolio.png",
     title1: "Website",
     title2: "Personal Portfolio",
     description:
@@ -21,7 +21,7 @@ const items = [
   },
   {
     id: 3,
-    image: "/public/projects/Education-portal.png",
+    image: "/src/assets/projects/Education-portal.png",
     title1: "Course Selling",
     title2: "Educational Website",
     description:
@@ -31,7 +31,7 @@ const items = [
   },
   {
     id: 4,
-    image: "/public/projects/Foodi.png",
+    image: "/src/assets/projects/Foodi.png",
     title1: "Food Order",
     title2: "Restaurant Website",
     description:
@@ -41,7 +41,7 @@ const items = [
   },
   {
     id: 5,
-    image: "/public/projects/Hamim-Hossain-Portfolio.png",
+    image: "/src/assets/projects/Hamim-Hossain-Portfolio.png",
     title1: "Website",
     title2: "Personal Portfolio",
     description:
@@ -51,7 +51,7 @@ const items = [
   },
   {
     id: 6,
-    image: "/public/projects/Buy-Online-Bus-Tickets-Shohoz.png",
+    image: "/src/assets/projects/Buy-Online-Bus-Tickets-Shohoz.png",
     title1: "Ticket Booking",
     title2: "Shohoz Clone",
     description:
@@ -61,7 +61,7 @@ const items = [
   },
   {
     id: 7,
-    image: "/public/projects/Daraz-Homepage.png",
+    image: "/src/assets/projects/Daraz-Homepage.png",
     title1: "E-Commerce",
     title2: "Daraz Clone",
     description:

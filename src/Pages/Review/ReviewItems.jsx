@@ -5,7 +5,7 @@ import { FaRegStar } from "react-icons/fa";
 const items = [
   {
     id: 1,
-    img: "/public/review/arman.jpg",
+    img: "/src/assets/review/arman.jpg",
     name: "Arman Hossain",
     desig: "Software Engineer",
     icon: [
@@ -20,7 +20,7 @@ const items = [
   },
   {
     id: 2,
-    img: "/public/review/kajal sir.jpg",
+    img: "/src/assets/review/kajal sir.jpg",
     name: "Moksedul Hoque",
     desig: "Sr. MIS Executive",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaRegStar />],
@@ -29,7 +29,7 @@ const items = [
   },
   {
     id: 3,
-    img: "/public/review/shakib copy.jpg",
+    img: "/src/assets/review/shakib copy.jpg",
     name: "Md Shakhaout Hossain",
     desig: "Software Engineer",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaRegStar />],
@@ -38,7 +38,7 @@ const items = [
   },
   {
     id: 4,
-    img: "/public/review/shoaib.jpg",
+    img: "/src/assets/review/shoaib.jpg",
     name: "Shoaib Hoque",
     desig: "Certified Data Scientist",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStarHalfAlt />],
@@ -47,7 +47,7 @@ const items = [
   },
   {
     id: 5,
-    img: "/public/review/Uzma.jpg",
+    img: "/src/assets/review/Uzma.jpg",
     name: "Uzam Khair",
     desig: "Fiverr Buyer",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],

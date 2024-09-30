@@ -61,8 +61,8 @@ const ReviewSet = () => {
 
       <div className="w-full esm:block lg:hidden">
         <Slider {...settings}>
-          {items.map((item) => (
-            <div key={item.id} className="h-[400px] w-full bg-white py-10">
+          {items.map((item, index) => (
+            <div key={index} className="h-[400px] w-full bg-white py-10">
               <img
                 className="mx-auto w-20 rounded-full"
                 src={item.img}

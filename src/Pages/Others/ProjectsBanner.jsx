@@ -41,7 +41,7 @@ const ProjectsBanner = () => {
         </div>
       </div>
       <div className="w-[30%] esm:hidden md:block">
-        <img className="w-[450px]" src="/public/image/meee.png" alt="" />
+        <img className="w-[450px]" src="/src/assets/image/meee.png" alt="" />
       </div>
     </div>
   );

@@ -8,15 +8,35 @@ html {
 
 @font-face {
   font-family: "poppins-regular";
-  src: url("/public/Fonts/Poppins-Light.ttf");
+  src: url("/src/assets/Fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: "poppins-SemiBold";
-  src: url("/public/Fonts/Poppins-SemiBold.ttf");
+  src: url("/src/assets/Fonts/Poppins-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Poppins-ExtraBold";
-  src: url("/public/Fonts/Poppins-ExtraBold.ttf");
+  src: url("/src/assets/Fonts/Poppins-ExtraBold.ttf");
+}
+
+/* Smooth and Styled Scrollbar */
+@layer base {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
 }

@@ -53,7 +53,7 @@ const About = () => {
         <div className="w-[40%] esm:hidden lg:block">
           <img
             className="w-[462px] shadow-2xl"
-            src="/public/image/me.jpg"
+            src="/src/assets/image/me.jpg"
             alt=""
           />
         </div>

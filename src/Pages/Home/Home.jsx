@@ -25,7 +25,8 @@ const Home = () => {
             <a
               className="rounded-md border-[3px] border-[#B1B493] px-4 py-2 text-[#B1B493] transition-all duration-300 hover:bg-[#B1B493] hover:text-white"
               target="_blank"
-              href="/public/Hamim Hossain Resume.pdf"
+              rel="noopener noreferrer" // Added for security reasons
+              href="/src/assets/Hamim Hossain Resume.pdf" // Fixed the path
             >
               Download CV
             </a>
@@ -36,7 +37,7 @@ const Home = () => {
         <div className="mt-8 flex w-full justify-center md:mt-0 md:w-[35%]">
           <img
             className="w-[80%] sm:w-[60%] md:w-full"
-            src="/public/image/Hamim copy - Copy.png"
+            src="/src/assets/image/Hamim copy - Copy.png" // Fixed the path
             alt="Hamim Hossain"
           />
         </div>

@@ -20,9 +20,9 @@ const App = () => {
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 300) {
+    if (!showScroll && window.scrollY > 300) {
       setShowScroll(true);
-    } else if (showScroll && window.pageYOffset <= 300) {
+    } else if (showScroll && window.scrollY <= 300) {
       setShowScroll(false);
     }
   };
@@ -36,7 +36,7 @@ const App = () => {
     return () => {
       window.removeEventListener("scroll", checkScrollTop);
     };
-  }, [showScroll]);
+  }, []); // Removed showScroll from dependency array
 
   return (
     <main className="relative h-full w-full bg-[#EEEEEE]">
@@ -57,7 +57,6 @@ const App = () => {
           showScroll ? "opacity-100" : "opacity-0"
         }`}
         onClick={scrollTop}
-        style={{ display: showScroll ? "block" : "none" }}
       />
     </main>
   );
