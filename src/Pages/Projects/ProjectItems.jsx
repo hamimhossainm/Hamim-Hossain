@@ -1,7 +1,15 @@
+import Project1 from "../../assets/projects/Amazon-com-Spend-less-Smile-more-.png";
+import Project2 from "../../assets/projects/Portfolio.png";
+import Project3 from "../../assets/projects/Education-portal.png";
+import Project4 from "../../assets/projects/Foodi.png";
+import Project5 from "../../assets/projects/Hamim-Hossain-Portfolio.png";
+import Project6 from "../../assets/projects/Buy-Online-Bus-Tickets-Shohoz.png";
+import Project7 from "../../assets/projects/Daraz-Homepage.png";
+
 const items = [
   {
     id: 1,
-    image: "/src/assets/projects/Amazon-com-Spend-less-Smile-more-.png",
+    image: Project1,
     title1: "E-Commerce",
     title2: "Amazon Clone",
     description:
@@ -11,7 +19,7 @@ const items = [
   },
   {
     id: 2,
-    image: "/src/assets/projects/Portfolio.png",
+    image: Project2,
     title1: "Website",
     title2: "Personal Portfolio",
     description:
@@ -21,7 +29,7 @@ const items = [
   },
   {
     id: 3,
-    image: "/src/assets/projects/Education-portal.png",
+    image: Project3,
     title1: "Course Selling",
     title2: "Educational Website",
     description:
@@ -31,7 +39,7 @@ const items = [
   },
   {
     id: 4,
-    image: "/src/assets/projects/Foodi.png",
+    image: Project4,
     title1: "Food Order",
     title2: "Restaurant Website",
     description:
@@ -41,7 +49,7 @@ const items = [
   },
   {
     id: 5,
-    image: "/src/assets/projects/Hamim-Hossain-Portfolio.png",
+    image: Project5,
     title1: "Website",
     title2: "Personal Portfolio",
     description:
@@ -51,7 +59,7 @@ const items = [
   },
   {
     id: 6,
-    image: "/src/assets/projects/Buy-Online-Bus-Tickets-Shohoz.png",
+    image: Project6,
     title1: "Ticket Booking",
     title2: "Shohoz Clone",
     description:
@@ -61,7 +69,7 @@ const items = [
   },
   {
     id: 7,
-    image: "/src/assets/projects/Daraz-Homepage.png",
+    image: Project7,
     title1: "E-Commerce",
     title2: "Daraz Clone",
     description:

@@ -1,11 +1,16 @@
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import Review1 from "../../assets/review/arman.jpg";
+import Review2 from "../../assets/review/kajal sir.jpg";
+import Review3 from "../../assets/review/shakib copy.jpg";
+import Review4 from "../../assets/review/shoaib.jpg";
+import Review5 from "../../assets/review/Uzma.jpg";
 
 const items = [
   {
     id: 1,
-    img: "/src/assets/review/arman.jpg",
+    img: Review1,
     name: "Arman Hossain",
     desig: "Software Engineer",
     icon: [
@@ -20,7 +25,7 @@ const items = [
   },
   {
     id: 2,
-    img: "/src/assets/review/kajal sir.jpg",
+    img: Review2,
     name: "Moksedul Hoque",
     desig: "Sr. MIS Executive",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaRegStar />],
@@ -29,7 +34,7 @@ const items = [
   },
   {
     id: 3,
-    img: "/src/assets/review/shakib copy.jpg",
+    img: Review3,
     name: "Md Shakhaout Hossain",
     desig: "Software Engineer",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaRegStar />],
@@ -38,7 +43,7 @@ const items = [
   },
   {
     id: 4,
-    img: "/src/assets/review/shoaib.jpg",
+    img: Review4,
     name: "Shoaib Hoque",
     desig: "Certified Data Scientist",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStarHalfAlt />],
@@ -47,7 +52,7 @@ const items = [
   },
   {
     id: 5,
-    img: "/src/assets/review/Uzma.jpg",
+    img: Review5,
     name: "Uzam Khair",
     desig: "Fiverr Buyer",
     icon: [<FaStar />, <FaStar />, <FaStar />, <FaStar />, <FaStar />],

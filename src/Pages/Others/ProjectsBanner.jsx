@@ -2,6 +2,7 @@ import React from "react";
 import { SiFiverr } from "react-icons/si";
 import { FaUpwork } from "react-icons/fa6";
 import { SiFreelancer } from "react-icons/si";
+import Hamim from "../../assets/image/meee.png";
 
 const ProjectsBanner = () => {
   return (
@@ -41,7 +42,7 @@ const ProjectsBanner = () => {
         </div>
       </div>
       <div className="w-[30%] esm:hidden md:block">
-        <img className="w-[450px]" src="/src/assets/image/meee.png" alt="" />
+        <img className="w-[450px]" src={Hamim} alt="" />
       </div>
     </div>
   );

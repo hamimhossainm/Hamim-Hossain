@@ -3,6 +3,7 @@ import { SlEarphones } from "react-icons/sl";
 import { FaCode } from "react-icons/fa6";
 import { GiJourney } from "react-icons/gi";
 import { MdOutlineSportsCricket } from "react-icons/md";
+import Hamim from "../../assets/image/me.jpg";
 
 const About = () => {
   const items = [
@@ -51,11 +52,7 @@ const About = () => {
     >
       <div className="flex w-full items-center esm:flex-col esm:justify-start md:flex-row lg:justify-center">
         <div className="w-[40%] esm:hidden lg:block">
-          <img
-            className="w-[462px] shadow-2xl"
-            src="/src/assets/image/me.jpg"
-            alt=""
-          />
+          <img className="w-[462px] shadow-2xl" src={Hamim} alt="" />
         </div>
         <div className="esm:w-full lg:ml-8 lg:w-[60%]">
           <h3 className="font-poppinsSemibold uppercase tracking-widest text-[#B7BA9B] esm:text-[13px] md:text-xl">

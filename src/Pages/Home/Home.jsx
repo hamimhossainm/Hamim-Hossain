@@ -1,4 +1,6 @@
 import React from "react";
+import Hamim from "../../assets/image/Hamim copy - Copy.png";
+import CV from "../../assets/image/Hamim Hossain Resume.pdf";
 
 const Home = () => {
   return (
@@ -25,8 +27,8 @@ const Home = () => {
             <a
               className="rounded-md border-[3px] border-[#B1B493] px-4 py-2 text-[#B1B493] transition-all duration-300 hover:bg-[#B1B493] hover:text-white"
               target="_blank"
-              rel="noopener noreferrer" // Added for security reasons
-              href="/src/assets/Hamim Hossain Resume.pdf" // Fixed the path
+              rel="noopener noreferrer"
+              href={CV}
             >
               Download CV
             </a>
@@ -37,7 +39,7 @@ const Home = () => {
         <div className="mt-8 flex w-full justify-center md:mt-0 md:w-[35%]">
           <img
             className="w-[80%] sm:w-[60%] md:w-full"
-            src="/src/assets/image/Hamim copy - Copy.png" // Fixed the path
+            src={Hamim}
             alt="Hamim Hossain"
           />
         </div>
