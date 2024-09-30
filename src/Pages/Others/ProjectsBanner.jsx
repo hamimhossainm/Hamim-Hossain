@@ -34,7 +34,7 @@ const ProjectsBanner = () => {
           </a>
           <a
             className="rounded-md bg-white px-5 py-0 font-poppinsSemibold text-[50px] text-[#28ACF6]"
-            href="https://www.freelancer.com"
+            href="https://www.freelancer.com/u/hamimh5"
             target="_blank"
           >
             <SiFreelancer />
