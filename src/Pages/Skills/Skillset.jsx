@@ -46,13 +46,13 @@ const Skillset = () => {
       lastw: "28%",
       lastM: "54%",
     },
-    {
-      id: 7,
-      name: "SASS",
-      value: 95,
-      lastw: "23%",
-      lastM: "31%",
-    },
+    // {
+    //   id: 7,
+    //   name: "SASS",
+    //   value: 95,
+    //   lastw: "23%",
+    //   lastM: "31%",
+    // },
     {
       id: 8,
       name: "REDUX TOOLKIT",
@@ -67,27 +67,27 @@ const Skillset = () => {
       lastw: "40%",
       lastM: "10%",
     },
-    {
-      id: 10,
-      name: "PYTHON",
-      value: 50,
-      lastw: "33%",
-      lastM: "20%",
-    },
-    {
-      id: 11,
-      name: "PHP",
-      value: 65,
-      lastw: "43%",
-      lastM: "20%",
-    },
-    {
-      id: 12,
-      name: "LARAVEL",
-      value: 40,
-      lastw: "13%",
-      lastM: "27%",
-    },
+    // {
+    //   id: 10,
+    //   name: "PYTHON",
+    //   value: 50,
+    //   lastw: "33%",
+    //   lastM: "20%",
+    // },
+    // {
+    //   id: 11,
+    //   name: "PHP",
+    //   value: 65,
+    //   lastw: "43%",
+    //   lastM: "20%",
+    // },
+    // {
+    //   id: 12,
+    //   name: "LARAVEL",
+    //   value: 40,
+    //   lastw: "13%",
+    //   lastM: "27%",
+    // },
   ];
 
   const circleStyles = {
