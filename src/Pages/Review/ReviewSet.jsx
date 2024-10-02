@@ -75,7 +75,7 @@ const ReviewSet = () => {
                 <p className="mt-2 flex justify-center text-[10px] text-yellow-500">
                   {item.icon}
                 </p>
-                <p className="mt-5 px-2 text-center font-poppinsReg text-[12px] leading-loose tracking-wider text-gray-500">
+                <p className="mt-5 px-2 text-justify font-poppinsReg text-[12px] leading-loose tracking-wider text-gray-500">
                   {item.review}
                 </p>
               </div>
