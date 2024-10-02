@@ -67,13 +67,13 @@ const Skillset = () => {
       lastw: "40%",
       lastM: "10%",
     },
-    // {
-    //   id: 10,
-    //   name: "PYTHON",
-    //   value: 50,
-    //   lastw: "33%",
-    //   lastM: "20%",
-    // },
+    {
+      id: 10,
+      name: "PYTHON",
+      value: 50,
+      lastw: "33%",
+      lastM: "20%",
+    },
     // {
     //   id: 11,
     //   name: "PHP",
