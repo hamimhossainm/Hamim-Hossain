@@ -62,7 +62,7 @@ const ReviewSet = () => {
         <div className="">
           <Slider {...settings}>
             {items.map((item) => (
-              <div key={item.id} className="h-[400px] bg-white px-10 py-5">
+              <div key={item.id} className="h-[450px] bg-white px-10 py-5">
                 <div className="flex justify-center">
                   <img className="w-20 rounded-full" src={item.img} alt="" />
                 </div>
