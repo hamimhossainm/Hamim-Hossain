@@ -10,6 +10,9 @@ export default {
         poppinsEbold: ["Poppins-ExtraBold"],
       },
       screens: {
+        xsm: "320px",
+        // => @media (min-width: 320px) { ... }
+
         esm: "400px",
         // => @media (min-width: 400px) { ... }
 

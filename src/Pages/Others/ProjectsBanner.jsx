@@ -6,9 +6,9 @@ import Hamim from "../../assets/image/meee.png";
 
 const ProjectsBanner = () => {
   return (
-    <div className="relative flex w-full items-center justify-center bg-[#B1B493] esm:flex-col esm:px-4 esm:py-10 md:flex-row md:px-20 md:py-0">
-      <div className="esm:w-full md:w-[70%]">
-        <h2 className="mb-8 font-poppinsEbold esm:text-[28px] md:text-4xl">
+    <div className="xsm:flex-col xsm:px-2 xsm:py-10 relative flex w-full items-center justify-center bg-[#B1B493] esm:px-4 md:flex-row md:px-20 md:py-0">
+      <div className="xsm:w-full md:w-[70%]">
+        <h2 className="xsm:text-[26px] xsm:mb-4 font-poppinsEbold esm:mb-8 esm:text-[28px] md:text-4xl">
           Do you have any project on your mind ?
         </h2>
         <p className="esm:[16px] mb-8 font-poppinsSemibold leading-loose tracking-wider text-white md:text-xl">
@@ -41,7 +41,7 @@ const ProjectsBanner = () => {
           </a>
         </div>
       </div>
-      <div className="w-[30%] esm:hidden md:block">
+      <div className="xsm:hidden w-[30%] md:block">
         <img className="w-[450px]" src={Hamim} alt="" />
       </div>
     </div>

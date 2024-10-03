@@ -106,11 +106,11 @@ const Skillset = () => {
   };
 
   return (
-    <div className="grid gap-10 esm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+    <div className="xsm:grid-cols-1 grid gap-10 esm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {items.map((item) => (
         <div
           key={item.id}
-          className="mb-10 w-[350px] bg-white py-10 text-center shadow-xl"
+          className="xsm:w-[300px] mb-10 bg-white py-10 text-center shadow-xl esm:w-[350px]"
         >
           <h1 className="mb-5 font-poppinsSemibold text-2xl">{item.name}</h1>
           <div className="mx-auto mb-5 w-44">

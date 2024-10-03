@@ -21,7 +21,7 @@ const ReviewSet = () => {
   };
   return (
     <div className="">
-      <div className="px-32 esm:hidden lg:block">
+      <div className="xsm:hidden px-32 lg:block">
         <Swiper
           cssMode={true}
           navigation={true}
@@ -58,11 +58,15 @@ const ReviewSet = () => {
           ))}
         </Swiper>
       </div>
-      <div className="flex w-full justify-center esm:block lg:hidden">
+
+      <div className="xsm:block flex w-full justify-center lg:hidden">
         <div className="">
           <Slider {...settings}>
             {items.map((item) => (
-              <div key={item.id} className="h-[450px] bg-white px-10 py-5">
+              <div
+                key={item.id}
+                className="xsm:px-2 h-[450px] bg-white py-5 esm:px-10"
+              >
                 <div className="flex justify-center">
                   <img className="w-20 rounded-full" src={item.img} alt="" />
                 </div>
@@ -75,7 +79,7 @@ const ReviewSet = () => {
                 <p className="mt-2 flex justify-center text-[10px] text-yellow-500">
                   {item.icon}
                 </p>
-                <p className="mt-5 px-2 text-justify font-poppinsReg text-[12px] leading-loose tracking-wider text-gray-500">
+                <p className="xsm:border-2 xsm:shadow-xl 400xsm:border-slate-400 xsm:h-[220px] mt-5 px-2 text-justify font-poppinsReg text-[12px] leading-loose tracking-wider text-gray-500 esm:h-fit esm:border-0 esm:shadow-none">
                   {item.review}
                 </p>
               </div>

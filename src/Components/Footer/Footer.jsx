@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="flex w-full items-center justify-center bg-[#232931] px-10 py-10 text-white">
-      <div className="font-poppinsReg esm:text-[16px] md:text-lg">
+      <div className="xsm:text-[12px] font-poppinsReg esm:text-[16px] md:text-lg">
         <div className="mb-3 flex justify-center gap-x-5 text-2xl">
           <a href="https://www.facebook.com/hamim641h" target="_blank">
             <FaFacebookSquare />

@@ -8,10 +8,10 @@ import CountUp from "react-countup";
 const Summary = () => {
   return (
     <div className="h-fit w-full bg-[#cdcdcf] px-6 py-12 esm:px-12 sm:px-16 lg:px-20 lg:py-20">
-      <div className="grid grid-cols-1 gap-10 esm:place-items-start lg:grid-cols-4 lg:place-items-center">
+      <div className="xsm:place-items-start grid grid-cols-1 gap-10 lg:grid-cols-4 lg:place-items-center">
         {/* Project Complete */}
-        <div className="flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
-          <div className="rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
+        <div className="xsm:gap-x-2 flex items-center justify-center lg:gap-x-5">
+          <div className="xsm:text-4xl xsm:px-2 xsm:py-2 rounded-full bg-[#B1B493] text-white esm:px-1 esm:py-1 esm:text-5xl md:px-3 md:py-3">
             <IoBriefcaseOutline />
           </div>
           <div>
@@ -25,8 +25,8 @@ const Summary = () => {
         </div>
 
         {/* Happy Clients */}
-        <div className="flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
-          <div className="rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
+        <div className="xsm:gap-x-2 flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
+          <div className="xsm:text-4xl xsm:px-2 xsm:py-2 rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
             <AiOutlineUsergroupAdd />
           </div>
           <div>
@@ -40,8 +40,8 @@ const Summary = () => {
         </div>
 
         {/* Cups of Coffee */}
-        <div className="flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
-          <div className="rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
+        <div className="xsm:gap-x-2 flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
+          <div className="xsm:text-4xl xsm:px-2 xsm:py-2 rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
             <FiCoffee />
           </div>
           <div>
@@ -55,8 +55,8 @@ const Summary = () => {
         </div>
 
         {/* Years of Experience */}
-        <div className="flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
-          <div className="rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
+        <div className="xsm:gap-x-2 flex items-center justify-center esm:gap-x-2 lg:gap-x-5">
+          <div className="xsm:text-4xl xsm:px-2 xsm:py-2 rounded-full bg-[#B1B493] text-5xl text-white esm:px-1 esm:py-1 md:px-3 md:py-3">
             <FaRegCalendarCheck />
           </div>
           <div>

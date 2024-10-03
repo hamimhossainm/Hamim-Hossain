@@ -5,14 +5,16 @@ import { SiGmail } from "react-icons/si";
 
 const Address = () => {
   return (
-    <div className="w-full">
+    <div className="w-full py-5">
       <div className="mb-8 flex items-center gap-x-4">
         <div>
           <FaPhoneAlt className="rounded-full bg-[#B1B493] px-2 py-2 text-5xl text-white" />
         </div>
         <div>
-          <h3 className="mb-3 font-poppinsSemibold text-xl">Phone :</h3>
-          <p className="text-normal font-poppinsReg text-gray-500">
+          <h3 className="xsm:text-base mb-3 font-poppinsSemibold esm:text-xl">
+            Phone :
+          </h3>
+          <p className="xsm:text-[12px] esm:text-normal font-poppinsReg text-gray-500">
             +8801904-486467
           </p>
         </div>
@@ -23,8 +25,10 @@ const Address = () => {
           <SiGmail className="rounded-full bg-[#B1B493] px-2 py-2 text-5xl text-white" />
         </div>
         <div>
-          <h3 className="mb-3 font-poppinsSemibold text-xl">Email :</h3>
-          <p className="text-normal font-poppinsReg text-gray-500">
+          <h3 className="xsm:text-base mb-3 font-poppinsSemibold esm:text-xl">
+            Email :
+          </h3>
+          <p className="xsm:text-[12px] esm:text-normal font-poppinsReg text-gray-500">
             hamimhossain.inbox@outlook.com
           </p>
         </div>
@@ -35,8 +39,10 @@ const Address = () => {
           <FaMapMarkerAlt className="rounded-full bg-[#B1B493] px-2 py-2 text-5xl text-white" />
         </div>
         <div>
-          <h3 className="mb-3 font-poppinsSemibold text-xl">Address</h3>
-          <p className="text-normal font-poppinsReg text-gray-500">
+          <h3 className="xsm:text-base mb-3 font-poppinsSemibold esm:text-xl">
+            Address
+          </h3>
+          <p className="xsm:text-[12px] esm:text-normal font-poppinsReg text-gray-500">
             Uttara, Dhaka - 1230
           </p>
         </div>

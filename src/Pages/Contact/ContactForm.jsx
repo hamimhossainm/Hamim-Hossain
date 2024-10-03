@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [name, setname] = useState("");
@@ -38,11 +37,11 @@ const ContactForm = () => {
   return (
     <div className="full">
       <ToastContainer />
-      <div className="mb-6 flex w-full esm:gap-4 md:gap-x-10">
+      <div className="xsm:gap-x-3 mb-6 flex w-full esm:gap-x-4 md:gap-x-10">
         <input
           onChange={(e) => setname(e.target.value)}
           value={name}
-          className="rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none esm:h-10 esm:w-full esm:px-2 esm:py-2 esm:text-[12px] md:h-16 md:w-[50%] md:px-4 md:py-4 md:text-lg"
+          className="xsm:h-10 xsm:px-2 xsm:py-2 xsm:w-[50%] xsm:text-[12px] rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none sm:w-full md:h-16 md:w-[50%] md:px-4 md:py-4 md:text-lg"
           type="text"
           name="name"
           placeholder="Your Name"
@@ -50,7 +49,7 @@ const ContactForm = () => {
         <input
           onChange={(e) => setemail(e.target.value)}
           value={email}
-          className="rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none esm:h-10 esm:w-full esm:px-2 esm:py-2 esm:text-[12px] md:h-16 md:w-[50%] md:px-4 md:py-4 md:text-lg"
+          className="xsm:h-10 xsm:px-2 xsm:py-2 xsm:w-[50%] xsm:text-[12px] rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none md:h-16 md:w-[50%] md:px-4 md:py-4 md:text-lg"
           type="email"
           name="email"
           placeholder="Your Email"
@@ -60,7 +59,7 @@ const ContactForm = () => {
         <input
           onChange={(e) => setsubject(e.target.value)}
           value={subject}
-          className="w-full rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none esm:h-10 esm:px-2 esm:py-2 esm:text-[12px] md:h-16 md:px-4 md:py-4 md:text-lg"
+          className="xsm:h-10 xsm:px-2 xsm:py-2 xsm:text-[12px] w-full rounded-sm border-[2px] border-[#B1B493] font-poppinsReg shadow-sm outline-none md:h-16 md:px-4 md:py-4 md:text-lg"
           type="text"
           name="subject"
           placeholder="Subject"
@@ -71,7 +70,7 @@ const ContactForm = () => {
           onChange={(e) => setmessage(e.target.value)}
           value={message}
           rows={6}
-          className="w-full resize-none rounded-sm border-[2px] border-[#B1B493] px-4 py-4 font-poppinsReg text-lg shadow-sm outline-none esm:px-2 esm:py-2 esm:text-[12px] md:px-4 md:py-4 md:text-lg"
+          className="xsm:px-2 xsm:py-2 xsm:text-[12px] w-full resize-none rounded-sm border-[2px] border-[#B1B493] px-4 py-4 font-poppinsReg text-lg shadow-sm outline-none md:px-4 md:py-4 md:text-lg"
           name="message"
           id="message"
           placeholder="Message"
