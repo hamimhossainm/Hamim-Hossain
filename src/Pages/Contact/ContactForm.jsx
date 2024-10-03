@@ -10,9 +10,9 @@ const ContactForm = () => {
 
   const sendMessage = () => {
     if (name !== "" && email !== "" && subject !== "" && message !== "") {
-      toast.success("Messages send successfully ✔", {
+      toast.info("Sending messages is on maintainance, Please use email", {
         position: "top-left",
-        autoClose: 1000,
+        autoClose: 3000,
         hideProgressBar: true,
         closeOnClick: false,
         pauseOnHover: false,
