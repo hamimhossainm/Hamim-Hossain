@@ -37,7 +37,7 @@ const Navbar = () => {
         HAMIM HOSSAIN<span className="text-gray-500">.</span>
       </a>
 
-      <div className="hidden items-center gap-12 font-poppinsReg text-lg lg:flex lg:gap-6 xl:gap-12">
+      <div className="hidden items-center gap-12 font-poppinsReg text-base lg:flex lg:gap-4 xl:gap-12">
         <a
           className={`relative text-slate-500 transition-all duration-500 ease-in-out after:absolute after:bottom-0 after:left-0 after:w-full after:origin-center after:bg-slate-500 after:content-[''] hover:text-gray-600 xsm:after:h-0 lg:after:h-[2px]`}
           href="#home"
